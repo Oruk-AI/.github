@@ -12,7 +12,11 @@ curl https://speech-api.oruk.ai/v1/audio/analysis \
   -F file=@call.wav -F model=oruk-resonance
 ```
 
-The file API also has separate [transcription, emotion and speaking-style endpoints](https://oruk.ai/docs). The [Realtime preview](https://oruk.ai/docs#realtime) streams transcription in 32 locales and phrase-level emotion over WebSocket. Full emotion and speaking-style analysis uses the English file endpoints.
+The file API also has separate [transcription, emotion and speaking-style endpoints](https://oruk.ai/docs). The [Realtime preview](https://oruk.ai/docs#realtime) streams transcription in 32 locales and phrase-level emotion over WebSocket. Original Resonance’s full emotion and speaking-style analysis uses the English file endpoints.
+
+[Resonance-2 Preview](https://oruk.ai/docs#resonance-2) is a separate clip-level emotion and speaking-style API. It returns all 31 continuous scores, six signed axes and selected labels that can be empty. Send 0.1–120 seconds of audio, up to 30 MiB, to `/v1/audio/resonance-2` using your existing API key and shared speech allowance. This route does not transcribe or diarize audio. SDK 0.2.10 users call it through ordinary HTTP.
+
+[Listen to six recorded examples](https://oruk.ai/research/resonance-2), including mistakes, and inspect the model/calibration revisions and all 546 predictions from the September 17 acted-emotion diagnostic. Training overlap has not been audited; the diagnostic is not an independent held-out evaluation.
 
 Plans include audio minutes, measured by the second. Standard self-serve plans have a seven-day trial that requires a card, charges $0 today and can be canceled before the trial ends. Promotional offers have their own terms. See [current plans and allowances](https://oruk.ai/pricing).
 
