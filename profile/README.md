@@ -4,6 +4,8 @@ Oruk, Inc. builds speech AI APIs for transcription, vocal emotion and speaking-s
 
 [Choose a model](https://oruk.ai/models#model-comparison) · [Speech emotion recognition API](https://oruk.ai/speech-emotion-recognition-api) · [API quickstart](https://oruk.ai/docs/quickstart) · [Pricing](https://oruk.ai/pricing)
 
+For hosted transcription, start with the [Orukeet hosted model](https://oruk.ai/models/orukeet) and [API quickstart](https://oruk.ai/docs/quickstart). For vocal delivery, read [what paralinguistics measures](https://oruk.ai/what-is-paralinguistics), listen to the [voice emotion analyzer](https://oruk.ai/tools/voice-emotion-analyzer), or integrate the [speech emotion recognition API](https://oruk.ai/speech-emotion-recognition-api).
+
 ## Build with the speech API
 
 | Model | Use it for | Access and scope |
