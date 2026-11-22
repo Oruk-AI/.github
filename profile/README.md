@@ -46,6 +46,10 @@ Plans start at $9/month (Hobby), $49/month (Builder) and $199/month (Production)
 
 Start with the [tested local-transcription tutorial](https://oruk.ai/guides/orukeet-local-transcription), including native Q8 and sherpa-onnx CPU examples, pinned artifacts and recorded outputs. The [model card](https://huggingface.co/oruk/orukeet) documents the weights, licenses and evaluation limitations. OpenWhispr [1.10.0](https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.0) includes Orukeet as its recommended local model.
 
+## Fourier 2B for local English transcription
+
+[Fourier 2B](https://huggingface.co/oruk/oruk-fourier-2b) transcribes short English recordings with the native Qwen3-ASR backend in Transformers. The model card includes a Python example. The weights are [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use and hosted or API serving require a separate Oruk license.
+
 ## Benchmarks and research
 
 [oruk-bench](https://github.com/Oruk-AI/oruk-bench) contains the published speech-emotion evaluation toolkit and results. The benchmark's seven-class mapping and multilingual dataset describe its evaluation protocol, not the hosted API's native outputs or language support. Oruk's historical model was evaluated in-distribution; those results do not establish the current API's accuracy on independent audio. Read the [results](https://oruk.ai/benchmarks) and [methodology](https://oruk.ai/benchmarks/methodology) together.
