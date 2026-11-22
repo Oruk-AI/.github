@@ -48,7 +48,9 @@ Start with the [tested local-transcription tutorial](https://oruk.ai/guides/oruk
 
 ## Fourier 2B for local English transcription
 
-[Fourier 2B](https://huggingface.co/oruk/oruk-fourier-2b) transcribes short English recordings with the native Qwen3-ASR backend in Transformers. The model card includes a Python example. The weights are [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use and hosted or API serving require a separate Oruk license.
+[Fourier 2B](https://huggingface.co/oruk/oruk-fourier-2b) transcribes short English recordings with the native Qwen3-ASR backend in Transformers. The [8-bit model and setup guide](https://huggingface.co/oruk/oruk-fourier-2b/blob/main/examples/handy-gguf/README.md) cover Handy and local Python transcription on CPU. [Hex users](https://huggingface.co/oruk/oruk-fourier-2b/blob/main/examples/hex/README.md) can import the same file for dictation.
+
+The weights are [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Oruk also permits [local workplace dictation in Hex](https://huggingface.co/oruk/oruk-fourier-2b#hex-local-workplace-dictation). Other commercial uses and hosted or API serving require a separate Oruk license.
 
 ## Benchmarks and research
 
